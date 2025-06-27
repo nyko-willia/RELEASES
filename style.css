@@ -1,0 +1,130 @@
+```css
+body {
+  font-family: Arial, sans-serif;
+  margin: 0; padding: 0;
+  background: #f5f5f5;
+  color: #333;
+}
+
+header {
+  background-color: #005f73;
+  color: white;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0; padding: 0;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+[27/06 à 22:06] ChatGPT: padding: 5px 10px;
+  border-radius: 3px;
+}
+
+nav ul li a.active,
+nav ul li a:hover {
+  background-color: #0a9396;
+}
+
+main {
+  padding: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+  background: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.hero {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.hero h2 {
+  margin-bottom: 10px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #0a9396;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.produit-list {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.produit-list article {
+  width: 250px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 15px;
+  text-align: center;
+  background: #e9f1f1;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+}
+
+.produit-list img {
+  max-width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table thead {
+  background-color: #005f73;
+  color: white;
+}
+
+table th, table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+button {
+  padding: 8px 12px;
+  background-color: #0a9396;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+[27/06 à 22:06] ChatGPT: background-color: #005f73;
+}
+
+footer {
+  background-color: #001219;
+  color: white;
+  text-align: center;
+  padding: 15px 10px;
+  margin-top: 30px;
+}
+```

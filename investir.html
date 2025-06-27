@@ -1,0 +1,106 @@
+```html
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>RELEASES - Investir</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<header>
+  <h1>RELEASES</h1>
+  <nav>
+    <ul>
+      <li><a href="index.html">Accueil</a></li>
+      <li><a href="investir.html" class="active">Investir</a></li>
+      <li><a href="apropos.html">À propos</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <h2>Choisissez votre produit et investissez</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Produit</th>
+        <th>Montant à investir</th>
+        <th>Revenu estimé</th>
+: <th>Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Moto</td>
+        <td>5 000 FCFA</td>
+        <td>12 000 FCFA</td>
+        <td><button onclick="showCode('MOTO5000')">Voir Code</button></td>
+      </tr>
+      <tr>
+        <td>Tricycle</td>
+        <td>10 000 FCFA</td>
+        <td>45 000 FCFA</td>
+        <td><button onclick="showCode('TRICYCLE10000')">Voir Code</button></td>
+      </tr>
+      <tr>
+        <td>Voiture</td>
+        <td>50 000 FCFA</td>
+        <td>105 000 FCFA</td>
+        <td><button onclick="showCode('VOITURE50000')">Voir Code</button></td>
+      </tr>
+      <tr>
+        <td>Camion</td>
+        <td>75 000 FCFA</td>
+        <td>160 000 FCFA</td>
+        <td><button onclick="showCode('CAMION75000')">Voir Code</button></td>
+      </tr>
+      <tr>
+        <td>Bateau</td>
+        <td>100 000 FCFA</td>
+        <td>205 000 FCFA</td>
+        <td><button onclick="showCode('BATEAU100000')">Voir Code</button></td>
+      </tr>
+      <tr>
+        <td>Avion</td>
+        <td>250 000 FCFA</td>
+        <td>650 000 FCFA</td>
+        <td><button onclick="showCode('AVION250000')">Voir Code</button></td>
+      </tr>
+      <tr>
+        <td>Île</td>
+        <td>500 000 FCFA</td>
+        <td>950 000 FCFA</td>
+[27/06 à 22:06] : <td><button onclick="showCode('ILE500000')">Voir Code</button></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div id="code-box" style="margin-top: 20px; padding: 15px; border: 1px solid #ddd; background: #f9f9f9; display:none; font-weight: bold;"></div>
+
+  <script>
+    function showCode(code) {
+      const codes = {
+        'MOTO5000': 'Orange Money : 658763764 CHOUNTOYA - Moto 5 000 FCFA',
+        'TRICYCLE10000': 'Orange Money : 658763764 CHOUNTOYA - Tricycle 10 000 FCFA',
+        'VOITURE50000': 'Orange Money : 658763764 CHOUNTOYA - Voiture 50 000 FCFA',
+        'CAMION75000': 'Orange Money : 658763764 CHOUNTOYA - Camion 75 000 FCFA',
+        'BATEAU100000': 'Orange Money : 658763764 CHOUNTOYA - Bateau 100 000 FCFA',
+        'AVION250000': 'Orange Money : 658763764 CHOUNTOYA - Avion 250 000 FCFA',
+        'ILE500000': 'Orange Money : 658763764 CHOUNTOYA - Île 500 000 FCFA'
+      };
+      const box = document.getElementById('code-box');
+      box.textContent = codes[code];
+      box.style.display = 'block';
+    }
+  </script>
+</main>
+
+<footer>
+  <p>&copy; 2025 RELEASES - Tous droits réservés</p>
+  <p>Contact Orange Money : <strong>658763764 (CHOUNTOYA)</strong></p>
+</footer>
+</body>
+</html>
+```
